@@ -1,5 +1,6 @@
 import React from 'react'
 import {orderProps} from "../utils/types.ts"
+import "../css/order.css"
 
 const Order = ({item, index, showItem}: orderProps) => {
   return (

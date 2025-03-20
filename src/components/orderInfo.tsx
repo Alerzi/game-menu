@@ -1,6 +1,7 @@
 import React from 'react'
 import {img4} from "../pictures.ts"
 import {orderInfo} from "../utils/types.ts"
+import "../css/orderInfo.css"
 
 const OrderInfo = ({showInfo, info, closeInfo}: orderInfo) => {
   return (

@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "id": "cab7",
+      "email": "aleks@ukr.net",
+      "password": "Alerzi123",
+      "check": true
+    }
+  ]
+}

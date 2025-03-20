@@ -1,0 +1,22 @@
+[
+    { "TransactionID": "#15325", "Goods": { "item1": 1, "item2": "279,99$", "item3": "40,500", "item4": "1,500", "item5": "279,99", "item6": "749.99" }, 
+        "Date": "12.06.2024", "Status": "Success", "GameName": "Ernard 1", "GameID": "1532526498", "Amount": "$153.26" },
+    { "TransactionID": "#28645", "Goods": { "item1": 3, "item2": "279,99$", "item3": "40,500", "item4": "1,500", "item5": "279,99", "item6": "749.99" },
+        "Date": "10.04.2023", "Status": "Success", "GameName": "Ernard 2", "GameID": "5489632587", "Amount": "$123.26" },
+    { "TransactionID": "#15687", "Goods": { "item1": 4, "item2": "279,99$", "item3": "40,500", "item4": "1,500", "item5": "279,99", "item6": "749.99" },
+        "Date": "11.08.2024", "Status": "Error", "GameName": "Ernard 3", "GameID": "9548632514", "Amount": "$152.16" },
+    { "TransactionID": "#84596", "Goods": { "item1": 2, "item2": "279,99$", "item3": "40,500", "item4": "1,500", "item5": "279,99", "item6": "749.99" },
+        "Date": "11.07.2024", "Status": "Error", "GameName": "Ernard 4", "GameID": "4589653248", "Amount": "$353.26" },
+    { "TransactionID": "#76548", "Goods": { "item1": 7, "item2": "279,99$", "item3": "40,500", "item4": "1,500", "item5": "279,99", "item6": "749.99" },
+        "Date": "01.09.2024", "Status": "Success", "GameName": "Ernard 5", "GameID": "1526398457", "Amount": "$263.26" },
+    { "TransactionID": "#15325", "Goods": { "item1": 7, "item2": "279,99$", "item3": "40,500", "item4": "1,500", "item5": "279,99", "item6": "749.99" },
+        "Date": "12.06.2024", "Status": "Success", "GameName": "Ernard 1", "GameID": "1532526498", "Amount": "$153.26" },
+    { "TransactionID": "#28645", "Goods": { "item1": 6, "item2": "279,99$", "item3": "40,500", "item4": "1,500", "item5": "279,99", "item6": "749.99" },
+        "Date": "10.04.2023", "Status": "Success", "GameName": "Ernard 2", "GameID": "5489632587", "Amount": "$123.26" },
+    { "TransactionID": "#15687", "Goods": { "item1": 8, "item2": "279,99$", "item3": "40,500", "item4": "1,500", "item5": "279,99", "item6": "749.99" },
+        "Date": "11.08.2024", "Status": "Error", "GameName": "Ernard 3", "GameID": "9548632514", "Amount": "$152.16" },
+    { "TransactionID": "#84596", "Goods": { "item1": 4, "item2": "279,99$", "item3": "40,500", "item4": "1,500", "item5": "279,99", "item6": "749.99" },
+        "Date": "11.07.2024", "Status": "Error", "GameName": "Ernard 4", "GameID": "4589653248", "Amount": "$353.26" },
+    { "TransactionID": "#76548", "Goods": { "item1": 3, "item2": "279,99$", "item3": "40,500", "item4": "1,500", "item5": "279,99", "item6": "749.99" },
+        "Date": "01.09.2024", "Status": "Success", "GameName": "Ernard 5", "GameID": "1526398457", "Amount": "$263.26" }
+]

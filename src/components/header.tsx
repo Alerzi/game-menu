@@ -5,11 +5,11 @@ import { useClickOutside } from '../utils/useClickOutside.ts'
 import Cookie from "json-cookie"
 
 const Header = ({user}: { user?: string }) => {
-    const [cur, setCur] = React.useState<boolean>(false);
-    const [lang, setLang] = React.useState<boolean>(false);
-    const [status, setStatus] = React.useState<string>(user || '');
-    const curRef = React.useRef(null);
-    const langRef = React.useRef(null);
+    const [cur, setCur] = React.useState<boolean>(false); // меню валюты
+    const [lang, setLang] = React.useState<boolean>(false); // меню языка
+    const [status, setStatus] = React.useState<string>(user || ''); // статус логина пользователя
+    const curRef = React.useRef(null); // для закрытия меню по клику в не его пределов
+    const langRef = React.useRef(null); // для закрытия меню по клику в не его пределов
     useClickOutside(curRef, langRef, () => {
         setCur(false);
         setLang(false);

@@ -7,9 +7,9 @@ import axios from "axios"
 import Cookie from "json-cookie"
 
 const Auth = ({auto, menu, setAuto, setMenu, setUser}: auth) => {
-    const [valid, setValid] = React.useState<valid>({email: '', password: '', passwordTwo: '', check: false});
-    const [login, setLogin] = React.useState<login>({email: '', password: ''});
-    const [errors, setErrors] = React.useState<errorsProps>({email: "", password: ""});
+    const [valid, setValid] = React.useState<valid>({email: '', password: '', passwordTwo: '', check: false}); // данные регистрации
+    const [login, setLogin] = React.useState<login>({email: '', password: ''}); // данные логина
+    const [errors, setErrors] = React.useState<errorsProps>({email: "", password: ""}); // ошибки при валидации данных регистрации
     const emailSet = (value: string) => {
         if(!/^[A-Za-z-0-9\-_[\]()!;:&^%$#?]+@[a-z]{2,6}\.[a-z]{2,6}$/.test(value)) { setErrors({...errors, email: "email"}); }
         else { setErrors({...errors, email: "OK"}); setValid({...valid, email: value}); }

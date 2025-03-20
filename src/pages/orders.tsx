@@ -8,8 +8,8 @@ import {useNavigate} from "react-router-dom"
 const Orders = () => {
     const [info, setInfo] = React.useState<any>(
         { TransactionID: "", Goods: { item1: "", item2: "", item3: "", item4: "", item5: "", item6: "" }, Date: "", Status: "", GameName: "", GameID: "", Amount: "" }
-    );
-    const [showInfo, setShowInfo] = React.useState<boolean>(false);
+    ); // подробная информация о выбранном ордере 
+    const [showInfo, setShowInfo] = React.useState<boolean>(false); // открывает окно информации о ордере
     const navigate = useNavigate();
 
     const showItem = (index: number) => {

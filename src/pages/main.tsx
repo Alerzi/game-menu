@@ -5,9 +5,9 @@ import Cookie from "json-cookie"
 import {useNavigate} from "react-router-dom"
 
 const Main = () => {
-  const [auto, setAuto] = React.useState<boolean>(false);
-  const [menu, setMenu] = React.useState<string>("login");
-  const [user, setUser] = React.useState<string>("");
+  const [auto, setAuto] = React.useState<boolean>(false); // открывает вплывающее окно регистрации/авторизации
+  const [menu, setMenu] = React.useState<string>("login"); // переключение меню login и registration
+  const [user, setUser] = React.useState<string>(""); // устанавливаем id пользователя для отображения в статуса логина в header
   const navigate = useNavigate();
   const showAuth = (bool: string) => {
     setAuto(true);
